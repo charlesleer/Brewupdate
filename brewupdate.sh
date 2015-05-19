@@ -8,7 +8,7 @@ clear
 yellow "[*] Update brew..."
 brew update
 yellow "[*] Upgrade where needed..."
-brew upgrade
+brew upgrade --all
 yellow "[*] Cleanup time..."
 brew cleanup 
 yellow "[*] All done..."
